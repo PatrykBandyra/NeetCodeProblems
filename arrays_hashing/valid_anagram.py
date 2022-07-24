@@ -36,9 +36,9 @@ class TestSolution(unittest.TestCase):
     def test_should_return_true(self):
         s = "anagram"
         t = "nagaram"
-        self.assertTrue(Solution().isAnagram2(s, t))
+        self.assertTrue(Solution().isAnagram(s, t))
 
     def test_should_return_false(self):
         s = "rat"
         t = "car"
-        self.assertFalse(Solution().isAnagram2(s, t))
+        self.assertFalse(Solution().isAnagram(s, t))
